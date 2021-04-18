@@ -1,4 +1,4 @@
-package com.krol.dialog
+package com.krol.dialog.interfaces
 
 /**
  * Created by DevHyeon on 2021.04.17
@@ -8,9 +8,6 @@ package com.krol.dialog
  * 3. Cancel.
  * */
 interface DialogInterface {
-    val POSITIVE : Int get() = 0
-    val NEGATIVE : Int get() = -1
-
     abstract fun show()
 
     abstract fun cancel()
